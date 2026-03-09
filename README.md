@@ -1,10 +1,10 @@
-=== Schema Structured Data ===
+=== Structured Data for Schema.org ===
 Contributors: philstudio
 Tags: schema, structured-data, json-ld, seo, google-rich-snippets, howto, faq, itemlist
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://yoomoney.ru/to/4100141266469
@@ -13,7 +13,7 @@ Generate Schema.org structured data via shortcode. Supports HowTo, FAQPage, Item
 
 == Description ==
 
-Schema Structured Data helps you add valid Schema.org markup to your WordPress content. This improves how search engines understand your content and **may qualify for Google Rich Snippets** (depending on schema type and page structure).
+Structured Data for Schema.org helps you add valid Schema.org markup to your WordPress content. This improves how search engines understand your content and **may qualify for Google Rich Snippets** (depending on schema type and page structure).
 
 = Supported Schema Types =
 
@@ -45,7 +45,7 @@ This plugin generates **valid Schema.org markup**. Rich Result eligibility depen
 = Manual Installation =
 
 1. Download the plugin zip file.
-2. Unzip and upload to `/wp-content/plugins/schema-structured-data`.
+2. Unzip and upload to `/wp-content/plugins/structured-data-for-schema-org`.
 3. Activate via Dashboard → Plugins.
 4. You're ready! Add `[schema]` shortcodes to your content.
 
@@ -200,17 +200,20 @@ This outputs the JSON-LD schema without visible HTML on the page.
 * ✅ `hidden` attribute for schema-only output
 * ✅ WordPress Coding Standards compliant
 
+= 1.0.1 =
+* [Changed] Change plugin name/slug
+
 == Upgrade Notice ==
 
-= 1.0.0 =
-Initial release.
+= 1.0.1 =
+Change plugin name/slug to Structured Data for Schema.org/structured-data-for-schema-org
 
 == Developer Notes ==
 
 = Classes =
 
-* `SSD_Schema` (`includes/class-ssd-schema.php`) — Core schema generation logic (static methods)
-* `SSD_Shortcode` (`includes/class-ssd-shortcode.php`) — Shortcode registration and rendering
+* `SDFSO_Schema` (`includes/class-sdfso-schema.php`) — Core schema generation logic (static methods)
+* `SDFSO_Shortcode` (`includes/class-sdfso-shortcode.php`) — Shortcode registration and rendering
 
 = Supported Schema Types =
 

@@ -1,1 +1,1 @@
-slug: schema-structured-data
+slug: structured-data-for-schema-org
