@@ -8,3 +8,4 @@
 tests/            export-ignore
 *.md              export-ignore
 assets/           export-ignore
+.wordpress-org/   export-ignore
