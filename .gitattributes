@@ -6,4 +6,5 @@
 .DS_Store         export-ignore
 .gitattributes    export-ignore
 tests/            export-ignore
-# assets/           export-ignore
+*.md              export-ignore
+assets/           export-ignore

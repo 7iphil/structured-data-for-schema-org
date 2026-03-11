@@ -4,7 +4,7 @@ Tags: schema, structured-data, json-ld, seo, google-rich-snippets
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://yoomoney.ru/to/4100141266469
@@ -219,12 +219,16 @@ This outputs the JSON-LD schema without visible HTML on the page.
 * [Deleted] Deleted Assets Files
 * [Added] Added readme.txt
 
+= 1.0.7 =
+* [Deleted] Deleted README.MD
+* [Added] Added assets files
+
 
 == Upgrade Notice ==
 
-= 1.0.6 =
-Deleted Assets Files
-Added readme.txt
+= 1.0.7 =
+Deleted README.md
+Added assets files
 
 == Developer Notes ==
 
