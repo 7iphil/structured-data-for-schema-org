@@ -223,12 +223,14 @@ This outputs the JSON-LD schema without visible HTML on the page.
 * [Deleted] Deleted README.MD
 * [Added] Added assets files
 
+= 1.0.8 =
+* [Tested] Test Deploy
+
 
 == Upgrade Notice ==
 
-= 1.0.7 =
-Deleted README.md
-Added assets files
+= 1.0.8 =
+Test Deploy
 
 == Developer Notes ==
 
