@@ -1,10 +1,10 @@
 === Structured Data for Schema.org ===
 Contributors: philstudio
-Tags: schema, structured-data, json-ld, seo, google-rich-snippets, howto, faq, itemlist
+Tags: schema, structured-data, json-ld, seo, google-rich-snippets
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://yoomoney.ru/to/4100141266469
@@ -206,10 +206,13 @@ This outputs the JSON-LD schema without visible HTML on the page.
 = 1.0.2 =
 * [Fixed] Fix readme file
 
+= 1.0.3 =
+* [Added] Add Plugin Icon
+
 == Upgrade Notice ==
 
-= 1.0.2 =
-Fix readme file
+= 1.0.3 =
+Add Plugin Icon
 
 == Developer Notes ==
 
