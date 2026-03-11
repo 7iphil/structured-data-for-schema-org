@@ -3,7 +3,7 @@
  * Plugin Name: Structured Data for Schema.org
  * Plugin URI: https://iphil.top/portfolio/structured-data-for-schema-org/
  * Description: Generate Schema.org structured data via shortcode. Supports HowTo, FAQPage, ItemList, CreativeWork.
- * Version: 1.0.10
+ * Version: 1.0.11
  * Author: philstudio - Phil
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html

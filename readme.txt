@@ -4,7 +4,7 @@ Tags: schema, structured-data, json-ld, seo, google-rich-snippets
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.10
+Stable tag: 1.0.11
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://yoomoney.ru/to/4100141266469
@@ -200,42 +200,10 @@ This outputs the JSON-LD schema without visible HTML on the page.
 * ✅ `hidden` attribute for schema-only output
 * ✅ WordPress Coding Standards compliant
 
-= 1.0.1 =
-* [Changed] Change plugin name/slug
-
-= 1.0.2 =
-* [Fixed] Fix readme file
-
-= 1.0.3 =
-* [Added] Add Plugin Icon
-
-= 1.0.4 =
-* [Added] Add Screenshots
-
-= 1.0.5 =
-* [Added] Add Files
-
-= 1.0.6 =
-* [Deleted] Deleted Assets Files
-* [Added] Added readme.txt
-
-= 1.0.7 =
-* [Deleted] Deleted README.MD
-* [Added] Added assets files
-
-= 1.0.8 =
-* [Tested] Test Deploy
-
-= 1.0.9 =
-* [Tested] Test Deploy
-
-= 1.0.10 =
-* [Tested] Test Deploy
-
 == Upgrade Notice ==
 
-= 1.0.10 =
-Test Deploy
+= 1.0.0 =
+Initial release
 
 == Developer Notes ==
 
