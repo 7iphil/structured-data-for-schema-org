@@ -4,7 +4,7 @@ Tags: schema, structured-data, json-ld, seo, google-rich-snippets, howto, faq, i
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://yoomoney.ru/to/4100141266469
@@ -203,10 +203,13 @@ This outputs the JSON-LD schema without visible HTML on the page.
 = 1.0.1 =
 * [Changed] Change plugin name/slug
 
+= 1.0.2 =
+* [Fixed] Fix readme file
+
 == Upgrade Notice ==
 
-= 1.0.1 =
-Change plugin name/slug to Structured Data for Schema.org/structured-data-for-schema-org
+= 1.0.2 =
+Fix readme file
 
 == Developer Notes ==
 
@@ -216,14 +219,14 @@ Change plugin name/slug to Structured Data for Schema.org/structured-data-for-sc
 * `SDFSO_Shortcode` (`includes/class-sdfso-shortcode.php`) — Shortcode registration and rendering
 
 = Supported Schema Types =
-
+`
 | Type        | Rich Result  | Limit Per Page | Required Fields         |
 |-------------|--------------|----------------|-------------------------|
 | HowTo       | Yes          | 1 recommended  | name, step[]            |
 | FAQPage     | Yes          | 1 enforced     | mainEntity[]            |
 | ItemList    | Yes          | ∞              | name, itemListElement[] |
 | CreativeWork| No           | ∞              | name                    |
-
+`
 == License ==
 
 This plugin is licensed under GPLv2 or later.
