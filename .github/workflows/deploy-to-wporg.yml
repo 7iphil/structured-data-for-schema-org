@@ -11,23 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
-      # --- НОВЫЙ ШАГ ДЛЯ ОТЛАДКИ ---
-      - name: DEBUG - Show assets folder content
-        run: |
-          echo "=== Checking if assets folder exists and its contents ==="
-          if [ -d "assets/" ]; then
-            echo "Folder 'assets/' exists."
-            ls -la assets/
-          else
-            echo "ERROR: Folder 'assets/' does NOT exist in the working directory!"
-          fi
-          echo "=== Listing all files in repo root ==="
-          ls -la
-      # --- КОНЕЦ НОВОГО ШАГА ---
-
       - name: Deploy to WordPress.org
-        uses: 10up/action-wordpress-plugin-deploy@2.3.0
+        uses: 10up/action-wordpress-plugin-deploy@stable
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
