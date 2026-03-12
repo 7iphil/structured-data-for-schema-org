@@ -4,7 +4,7 @@ Tags: schema, structured-data, json-ld, seo, google-rich-snippets
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.11
+Stable tag: 1.0.12
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://yoomoney.ru/to/4100141266469
